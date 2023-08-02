@@ -38,12 +38,9 @@
     
     color: white;
     display: flex;
-margin-left: 500px;
+    margin-left: 500px;
     justify-content: center;
     align-items: center;
-    /* padding: 20px; */
-    
-
     list-style: none;
 
 }
@@ -64,9 +61,20 @@ margin-left: 500px;
 }
 
 
+@media(max-width:720px){
+
+    .menu ul {
+        margin-left: 80px;
+    }
+    .menu ul li{
+        margin: 10px;
+        font-size: 12px;
+      }
+}
+
+
 /* ----banner-1----- */
 .id{
-/* background: red; */
 max-width: 90%;
 margin: auto;
 height: 70vh;
@@ -105,8 +113,18 @@ height: 70vh;
 .vi h1{
     font-weight: 800;
     font-size: 45px;
-    /* margin-top: 5px; */
-    /* text-transform: uppercase; */
+}
+@media(max-width:720px){
+    .id{
+        height: 30vh;
+        }
+        .ja img{
+
+            width: 300px;
+            height: 300px;
+            margin-top: 30px;
+            
+        }
 }
 
 
@@ -141,8 +159,22 @@ height: 70vh;
     .y h1{
         font-weight: 800;
         font-size: 45px;
-        /* margin-top: 5px; */
-        /* text-transform: uppercase; */
+    }
+    @media(max-width:720px){
+        .idd{
+            height: 35vh;
+            }
+            .pa img{
+
+                width: 300px;
+                height: 300px;
+                margin-top: 100px;
+            }
+            .y{
+                width: 75%;
+                /* margin-top: 13%; */
+                margin-left: 5%;
+            }
     }
 
 
@@ -191,13 +223,20 @@ height: 70vh;
         margin-left: 90%;
         float: right;
         position: absolute;
-       
-      
     }
     .btn_order_zero a{
         text-decoration: none;
     }
+@media(max-width:720px){
+    .main_menu{
+        height: 50vh;
+    }
+    .btn_order_zero{
+        margin-top:65%;
+        margin-left: 80%;
+    }
 
+}
 
 
 
@@ -241,6 +280,11 @@ height: 70vh;
     .gallery_types img:hover{
         cursor: pointer;
         border-radius: 5000px;
+    }
+    @media(max-width:720px){
+        .main_gallery{
+            height: 45vh;
+        }
     }
 
     /* ---rewiview---- */
