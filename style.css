@@ -61,14 +61,14 @@
 }
 
 
-@media(max-width:400px){
+@media(max-width:720px){
 
     .menu ul {
         margin-left: 50px;
     }
     .menu ul li{
-        margin: 5px;
-        font-size: 8px;
+        margin: 10px;
+        font-size: 12px;
       }
 }
 
